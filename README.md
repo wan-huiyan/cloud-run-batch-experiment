@@ -41,17 +41,17 @@ All 50 tasks completed. 3/50 permutations produced effects >= observed
 ## Installation
 
 ```bash
-claude install-skill github:wan-huiyan/cloud-run-batch-experiment
+git clone https://github.com/wan-huiyan/cloud-run-batch-experiment.git ~/.claude/skills/cloud-run-batch-experiment
 ```
 
 ## Cost estimation
 
 | Workload | Config | Per-task time | N tasks | Total cost |
 |---|---|---|---|---|
-| BSTS permutation | 2 vCPU, 4GB | ~2 min | 50 | ~$7.50 |
-| CausalPy MCMC | 2 vCPU, 4GB | ~5 min | 50 | ~$18 |
-| Parameter sweep | 1 vCPU, 2GB | ~30 sec | 100 | ~$2 |
-| Full exploration | 2 vCPU, 4GB | ~3 min | 200 | ~$36 |
+| BSTS permutation | 2 vCPU, 4GB | ~2 min | 50 | ~$0.35 |
+| CausalPy MCMC | 2 vCPU, 4GB | ~5 min | 50 | ~$0.87 |
+| Parameter sweep | 1 vCPU, 2GB | ~30 sec | 100 | ~$0.09 |
+| Full exploration | 2 vCPU, 4GB | ~3 min | 200 | ~$2.10 |
 
 ## Limitations
 
