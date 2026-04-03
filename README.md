@@ -53,6 +53,13 @@ git clone https://github.com/wan-huiyan/cloud-run-batch-experiment.git ~/.claude
 | Parameter sweep | 1 vCPU, 2GB | ~30 sec | 100 | ~$0.09 |
 | Full exploration | 2 vCPU, 4GB | ~3 min | 200 | ~$2.10 |
 
+## Requirements
+
+- Claude Code v1.0+
+- GCP project with Cloud Run Jobs API enabled
+- gcloud CLI authenticated
+- Docker installed locally
+
 ## Limitations
 
 - CPU-only. For GPU workloads, use Vertex AI Training or GKE with GPU node pools.
@@ -65,6 +72,12 @@ git clone https://github.com/wan-huiyan/cloud-run-batch-experiment.git ~/.claude
 
 - [causal-impact-campaign](https://github.com/wan-huiyan/causal-impact-campaign) -- Measure causal impact of marketing campaigns using Bayesian structural time series. Pairs with this skill for running multi-spec analysis at scale.
 - [permutation-validation](https://github.com/wan-huiyan/permutation-validation) -- Validate causal inference results with empirical permutation tests. Pairs with this skill for parallel permutation execution on Cloud Run.
+
+## Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 1.0.0 | 2026-03 | Initial release |
 
 ## License
 
