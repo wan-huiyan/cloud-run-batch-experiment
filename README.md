@@ -13,6 +13,10 @@ This Claude Code skill guides you through the full pattern for running batch exp
 - Executes N parallel tasks with `gcloud run jobs execute --tasks N`
 - Collects JSON results from GCS
 
+## Why a Claude Code Skill?
+
+Running Cloud Run Jobs requires juggling Dockerfiles, job YAML, polling loops, GCS paths, and IAM permissions. The value isn't in any single step — it's in Claude handling the full sequence: writing the runner script, building and pushing the image, deploying the job, monitoring task status, and surfacing failures. A shell script would need to be re-written for each experiment; this skill adapts to whatever Python code you hand it.
+
 ## When to use
 
 - Running 10+ independent experiments that each take 1-60 minutes
