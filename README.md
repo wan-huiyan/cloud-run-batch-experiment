@@ -1,7 +1,7 @@
 # cloud-run-batch-experiment
 [![GitHub release](https://img.shields.io/github/v/release/wan-huiyan/cloud-run-batch-experiment)](https://github.com/wan-huiyan/cloud-run-batch-experiment/releases) [![Claude Code](https://img.shields.io/badge/Claude_Code-skill-orange)](https://claude.com/claude-code) [![license](https://img.shields.io/github/license/wan-huiyan/cloud-run-batch-experiment)](LICENSE) [![last commit](https://img.shields.io/github/last-commit/wan-huiyan/cloud-run-batch-experiment)](https://github.com/wan-huiyan/cloud-run-batch-experiment/commits)
 
-Deploy and run batch Python experiments on GCP Cloud Run Jobs with parallel execution and GCS result collection.
+Running 50+ experiment variants locally ties up your machine for hours. This skill deploys them to GCP Cloud Run Jobs in parallel — for pennies — and collects results to GCS automatically.
 
 ## What it does
 
