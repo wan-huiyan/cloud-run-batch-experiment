@@ -44,8 +44,26 @@ All 50 tasks completed. 3/50 permutations produced effects >= observed
 
 ## Installation
 
+**Claude Code (plugin install — recommended):**
+```bash
+# Add the marketplace, then install the plugin
+claude plugin marketplace add wan-huiyan/cloud-run-batch-experiment
+claude plugin install cloud-run-batch-experiment@wan-huiyan-cloud-run-batch-experiment
+```
+
+**Claude Code (git clone):**
 ```bash
 git clone https://github.com/wan-huiyan/cloud-run-batch-experiment.git ~/.claude/skills/cloud-run-batch-experiment
+```
+
+**Cursor** (2.4+):
+```bash
+# Per-project rule (most reliable)
+mkdir -p .cursor/rules
+# Copy plugins/cloud-run-batch-experiment/SKILL.md content into .cursor/rules/cloud-run-batch-experiment.mdc with alwaysApply: true
+
+# Or via npx skills CLI
+npx skills add wan-huiyan/cloud-run-batch-experiment --global
 ```
 
 ## Cost estimation
